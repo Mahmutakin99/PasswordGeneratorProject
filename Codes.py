@@ -44,7 +44,7 @@ while True:
 Press 0 to stop/finish.
 Process selection: '''))
     if(select==0):
-        select2=str(input("you have chosen to stop the transaction, should the transaction be executed? 'yes' or 'no' "))
+        select2=input("you have chosen to stop the transaction, should the transaction be executed? 'yes' or 'no' ")
         if(select2=='yes'):
             break
         elif(select2=='no'):
